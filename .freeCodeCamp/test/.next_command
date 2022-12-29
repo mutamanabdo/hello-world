@@ -5,3 +5,10 @@ history -a
 echo hello PostgreSQL
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+ls --color=auto
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+psql --username=freecidecamp --dbname=postgres
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+psql --username=freecodecamp --dbname=postgres
