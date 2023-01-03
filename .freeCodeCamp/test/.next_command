@@ -50,3 +50,6 @@ psql --username=freecodecamp --dbname=more_info
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
 psql --username=freecodecamp --dbname=postgres
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+psql --username=freecodecamp --dbname=postgres
